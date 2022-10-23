@@ -30,8 +30,8 @@ const NewsFeed = () => {
                 <div>
                     <p className='text-3xl mb-3'>Contact Us</p>
                     <p className='flex items-center gap-3'> <span><FaAddressBook /></span> <span>Address: 5/27 Mohammadpur, Dhaka, Bangladesh</span></p>
-                    <p className='flex items-center gap-3 my-5'><span><FaPhoneVolume /></span> <span>Phone: <a className='underline' href="#">+801612-345678</a></span></p>
-                    <p className='flex items-center gap-3'><span><FaMailBulk /></span> <span>Email: <a className='text-blue-500 font-bold underline' href="/">{user ? user?.email : "borhan@manager.com"}</a></span></p>
+                    <p className='flex items-center gap-3 my-5'><span><FaPhoneVolume /></span> <span>Phone: <a className='underline' href="#">+801537-506280</a></span></p>
+                    <p className='flex items-center gap-3'><span><FaMailBulk /></span> <span>Email: <a className='text-blue-500 font-bold underline' href="/">{user ? user?.email : "Faridhossain.css@gmail.com"}</a></span></p>
                 </div>
             </div>
         </div>

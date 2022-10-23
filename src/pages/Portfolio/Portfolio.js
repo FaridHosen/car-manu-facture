@@ -1,5 +1,5 @@
 import React from 'react';
-import myself from '../../images/borhan.png';
+// import myself from '../../images/farid.JPG';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -7,10 +7,10 @@ const Portfolio = () => {
         <div className='px-12 py-8'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div className="card card-compact bg-base-100 shadow-xl">
-                    <figure><img width={400} src={myself} alt="Shoes" /></figure>
+                    {/* <figure><img width={400} src={farid} alt="Shoes" /></figure> */}
                     <div className="text-center p-4">
-                        <p> <span className='text-xl font-bold'>Md Borhan Uddin</span></p>
-                        <p><span className='text-xl font-bold'>mdborhanuddinmajumder058@gmail.com</span></p>
+                        <p> <span className='text-xl font-bold'>Farid Hossain</span></p>
+                        <p><span className='text-xl font-bold'>faridhossain.cse@gmail.com</span></p>
                     </div>
                 </div>
                 <div className='text-center'>
@@ -27,18 +27,18 @@ const Portfolio = () => {
                             <tbody>
                                 <tr>
                                     <td>SSC</td>
-                                    <td>Monohorgonj Govt. High School & College</td>
-                                    <td>2013 (Cumilla)</td>
+                                    <td>Chandakora S/A Hight School</td>
+                                    <td>2014 (Cumilla)</td>
                                 </tr>
                                 <tr>
                                     <td>HSC</td>
-                                    <td>Cumilla Residential College</td>
-                                    <td>2015 (Cumilla)</td>
+                                    <td>All-Haj Nurmia Degree Collage</td>
+                                    <td>2016 (Cumilla)</td>
                                 </tr>
                                 <tr>
                                     <td>BSc in CSE</td>
-                                    <td>World University of Bangladesh</td>
-                                    <td>2021 (Dhaka)</td>
+                                    <td>Fareast International University</td>
+                                    <td>2022 (Dhaka)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -78,8 +78,8 @@ const Portfolio = () => {
             </div>
             <div className='text-center mt-8'>
                 <h4 className='text-xl font-bold mb-3'>My Completed Project</h4>
-                <p><a target='_blank' className='underline' href="https://scintillating-quokka-d477fd.netlify.app/">https://scintillating-quokka-d477fd.netlify.app/</a></p>
-                <p><a target='_blank' className='underline my-4' href="https://sparkly-travesseiro-3c9d55.netlify.app/">https://sparkly-travesseiro-3c9d55.netlify.app/</a></p>
+                <p><a target='_blank' className='underline' href="https://scintillating-quokka-d477fd.netlify.app/">https://hilarious-phoenix-b40936.netlify.app/</a></p>
+                <p><a target='_blank' className='underline my-4' href="https://sparkly-travesseiro-3c9d55.netlify.app/">https://boisterous-dragon-e2aff8.netlify.app/blog#blog</a></p>
                 <p><a target='_blank' className='underline' href="https://velvety-palmier-679f13.netlify.app/">https://velvety-palmier-679f13.netlify.app/</a></p>
 
             </div>
